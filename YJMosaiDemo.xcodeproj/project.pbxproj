@@ -149,7 +149,7 @@
 				C792194721FE8D5B00AFD27F /* DrawViewController.m */,
 				C792195621FEA60200AFD27F /* ResultViewController.h */,
 				C792195721FEA60200AFD27F /* ResultViewController.m */,
-				C792194C21FE970100AFD27F /* MosaiView */,
+				C792194C21FE970100AFD27F /* YJMosaiView */,
 				C737B3ED21FB3DB300839366 /* Other */,
 				C737B3C921FB3DAD00839366 /* Info.plist */,
 				C792194921FE8F8100AFD27F /* BaseNav.h */,
@@ -191,7 +191,7 @@
 			path = Other;
 			sourceTree = "<group>";
 		};
-		C792194C21FE970100AFD27F /* MosaiView */ = {
+		C792194C21FE970100AFD27F /* YJMosaiView */ = {
 			isa = PBXGroup;
 			children = (
 				C792194F21FE970100AFD27F /* MosaiView.h */,
@@ -201,7 +201,7 @@
 				C792194D21FE970100AFD27F /* MosaiPath.h */,
 				C792195021FE970100AFD27F /* MosaiPath.m */,
 			);
-			path = MosaiView;
+			path = YJMosaiView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
