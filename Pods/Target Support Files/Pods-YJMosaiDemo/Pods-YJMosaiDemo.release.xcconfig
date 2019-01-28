@@ -1,0 +1,9 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Shimmer" "${PODS_ROOT}/Headers/Public/WSProgressHUD" "${PODS_ROOT}/Headers/Public/YJTool"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Shimmer" "${PODS_CONFIGURATION_BUILD_DIR}/WSProgressHUD" "${PODS_CONFIGURATION_BUILD_DIR}/YJTool"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/Shimmer" -isystem "${PODS_ROOT}/Headers/Public/WSProgressHUD" -isystem "${PODS_ROOT}/Headers/Public/YJTool"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"Shimmer" -l"WSProgressHUD" -l"YJTool" -framework "CoreGraphics" -framework "Foundation" -framework "ImageIO" -framework "QuartzCore" -framework "UIKit"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7531FCC4D28655F095450F7B /* libPods-YJMosaiDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1A98CE5D4E75EB28FB9B4FA /* libPods-YJMosaiDemo.a */; };
+		C737B3BD21FB3DAB00839366 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C737B3BC21FB3DAB00839366 /* AppDelegate.m */; };
+		C737B3C021FB3DAB00839366 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C737B3BF21FB3DAB00839366 /* ViewController.m */; };
+		C737B3C321FB3DAB00839366 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C737B3C121FB3DAB00839366 /* Main.storyboard */; };
+		C737B3C521FB3DAD00839366 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C737B3C421FB3DAD00839366 /* Assets.xcassets */; };
+		C737B3C821FB3DAD00839366 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C737B3C621FB3DAD00839366 /* LaunchScreen.storyboard */; };
+		C737B3CB21FB3DAD00839366 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C737B3CA21FB3DAD00839366 /* main.m */; };
+		C737B3D521FB3DAD00839366 /* YJMosaiDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C737B3D421FB3DAD00839366 /* YJMosaiDemoTests.m */; };
+		C737B3E021FB3DAD00839366 /* YJMosaiDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C737B3DF21FB3DAD00839366 /* YJMosaiDemoUITests.m */; };
+		C792194821FE8D5B00AFD27F /* DrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C792194721FE8D5B00AFD27F /* DrawViewController.m */; };
+		C792194B21FE8F8100AFD27F /* BaseNav.m in Sources */ = {isa = PBXBuildFile; fileRef = C792194A21FE8F8100AFD27F /* BaseNav.m */; };
+		C792195321FE970100AFD27F /* MosaiPath.m in Sources */ = {isa = PBXBuildFile; fileRef = C792195021FE970100AFD27F /* MosaiPath.m */; };
+		C792195421FE970100AFD27F /* MosaiView.m in Sources */ = {isa = PBXBuildFile; fileRef = C792195121FE970100AFD27F /* MosaiView.m */; };
+		C792195521FE970100AFD27F /* MosaiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C792195221FE970100AFD27F /* MosaiManager.m */; };
+		C792195821FEA60200AFD27F /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C792195721FEA60200AFD27F /* ResultViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C737B3D121FB3DAD00839366 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C737B3B021FB3DAB00839366 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C737B3B721FB3DAB00839366;
+			remoteInfo = YJMosaiDemo;
+		};
+		C737B3DC21FB3DAD00839366 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C737B3B021FB3DAB00839366 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C737B3B721FB3DAB00839366;
+			remoteInfo = YJMosaiDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52CC640348E52A006715E3C9 /* Pods-YJMosaiDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJMosaiDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YJMosaiDemo/Pods-YJMosaiDemo.release.xcconfig"; sourceTree = "<group>"; };
+		860A089FDA3514E27417BE5C /* Pods-YJMosaiDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJMosaiDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YJMosaiDemo/Pods-YJMosaiDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C737B3B821FB3DAB00839366 /* YJMosaiDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJMosaiDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C737B3BB21FB3DAB00839366 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C737B3BC21FB3DAB00839366 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C737B3BE21FB3DAB00839366 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C737B3BF21FB3DAB00839366 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C737B3C221FB3DAB00839366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C737B3C421FB3DAD00839366 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C737B3C721FB3DAD00839366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C737B3C921FB3DAD00839366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C737B3CA21FB3DAD00839366 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C737B3D021FB3DAD00839366 /* YJMosaiDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YJMosaiDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C737B3D421FB3DAD00839366 /* YJMosaiDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJMosaiDemoTests.m; sourceTree = "<group>"; };
+		C737B3D621FB3DAD00839366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C737B3DB21FB3DAD00839366 /* YJMosaiDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YJMosaiDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C737B3DF21FB3DAD00839366 /* YJMosaiDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJMosaiDemoUITests.m; sourceTree = "<group>"; };
+		C737B3E121FB3DAD00839366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C792194521FE8CBD00AFD27F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C792194621FE8D5B00AFD27F /* DrawViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawViewController.h; sourceTree = "<group>"; };
+		C792194721FE8D5B00AFD27F /* DrawViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawViewController.m; sourceTree = "<group>"; };
+		C792194921FE8F8100AFD27F /* BaseNav.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNav.h; sourceTree = "<group>"; };
+		C792194A21FE8F8100AFD27F /* BaseNav.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNav.m; sourceTree = "<group>"; };
+		C792194D21FE970100AFD27F /* MosaiPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MosaiPath.h; sourceTree = "<group>"; };
+		C792194E21FE970100AFD27F /* MosaiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MosaiManager.h; sourceTree = "<group>"; };
+		C792194F21FE970100AFD27F /* MosaiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MosaiView.h; sourceTree = "<group>"; };
+		C792195021FE970100AFD27F /* MosaiPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MosaiPath.m; sourceTree = "<group>"; };
+		C792195121FE970100AFD27F /* MosaiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MosaiView.m; sourceTree = "<group>"; };
+		C792195221FE970100AFD27F /* MosaiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MosaiManager.m; sourceTree = "<group>"; };
+		C792195621FEA60200AFD27F /* ResultViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
+		C792195721FEA60200AFD27F /* ResultViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
+		E1A98CE5D4E75EB28FB9B4FA /* libPods-YJMosaiDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YJMosaiDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C737B3B521FB3DAB00839366 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7531FCC4D28655F095450F7B /* libPods-YJMosaiDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C737B3CD21FB3DAD00839366 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C737B3D821FB3DAD00839366 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68352E0DE534394B421877C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				860A089FDA3514E27417BE5C /* Pods-YJMosaiDemo.debug.xcconfig */,
+				52CC640348E52A006715E3C9 /* Pods-YJMosaiDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C55935D34D24E55B96FEC50F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1A98CE5D4E75EB28FB9B4FA /* libPods-YJMosaiDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C737B3AF21FB3DAB00839366 = {
+			isa = PBXGroup;
+			children = (
+				C792194521FE8CBD00AFD27F /* PrefixHeader.pch */,
+				C737B3BA21FB3DAB00839366 /* YJMosaiDemo */,
+				C737B3D321FB3DAD00839366 /* YJMosaiDemoTests */,
+				C737B3DE21FB3DAD00839366 /* YJMosaiDemoUITests */,
+				C737B3B921FB3DAB00839366 /* Products */,
+				68352E0DE534394B421877C3 /* Pods */,
+				C55935D34D24E55B96FEC50F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C737B3B921FB3DAB00839366 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C737B3B821FB3DAB00839366 /* YJMosaiDemo.app */,
+				C737B3D021FB3DAD00839366 /* YJMosaiDemoTests.xctest */,
+				C737B3DB21FB3DAD00839366 /* YJMosaiDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C737B3BA21FB3DAB00839366 /* YJMosaiDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C792194621FE8D5B00AFD27F /* DrawViewController.h */,
+				C792194721FE8D5B00AFD27F /* DrawViewController.m */,
+				C792195621FEA60200AFD27F /* ResultViewController.h */,
+				C792195721FEA60200AFD27F /* ResultViewController.m */,
+				C792194C21FE970100AFD27F /* MosaiView */,
+				C737B3ED21FB3DB300839366 /* Other */,
+				C737B3C921FB3DAD00839366 /* Info.plist */,
+				C792194921FE8F8100AFD27F /* BaseNav.h */,
+				C792194A21FE8F8100AFD27F /* BaseNav.m */,
+			);
+			path = YJMosaiDemo;
+			sourceTree = "<group>";
+		};
+		C737B3D321FB3DAD00839366 /* YJMosaiDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C737B3D421FB3DAD00839366 /* YJMosaiDemoTests.m */,
+				C737B3D621FB3DAD00839366 /* Info.plist */,
+			);
+			path = YJMosaiDemoTests;
+			sourceTree = "<group>";
+		};
+		C737B3DE21FB3DAD00839366 /* YJMosaiDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C737B3DF21FB3DAD00839366 /* YJMosaiDemoUITests.m */,
+				C737B3E121FB3DAD00839366 /* Info.plist */,
+			);
+			path = YJMosaiDemoUITests;
+			sourceTree = "<group>";
+		};
+		C737B3ED21FB3DB300839366 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				C737B3BB21FB3DAB00839366 /* AppDelegate.h */,
+				C737B3BC21FB3DAB00839366 /* AppDelegate.m */,
+				C737B3BE21FB3DAB00839366 /* ViewController.h */,
+				C737B3BF21FB3DAB00839366 /* ViewController.m */,
+				C737B3C121FB3DAB00839366 /* Main.storyboard */,
+				C737B3C421FB3DAD00839366 /* Assets.xcassets */,
+				C737B3C621FB3DAD00839366 /* LaunchScreen.storyboard */,
+				C737B3CA21FB3DAD00839366 /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		C792194C21FE970100AFD27F /* MosaiView */ = {
+			isa = PBXGroup;
+			children = (
+				C792194F21FE970100AFD27F /* MosaiView.h */,
+				C792195121FE970100AFD27F /* MosaiView.m */,
+				C792194E21FE970100AFD27F /* MosaiManager.h */,
+				C792195221FE970100AFD27F /* MosaiManager.m */,
+				C792194D21FE970100AFD27F /* MosaiPath.h */,
+				C792195021FE970100AFD27F /* MosaiPath.m */,
+			);
+			path = MosaiView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C737B3B721FB3DAB00839366 /* YJMosaiDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C737B3E421FB3DAD00839366 /* Build configuration list for PBXNativeTarget "YJMosaiDemo" */;
+			buildPhases = (
+				478F8B1FB2A22B8B275C236C /* [CP] Check Pods Manifest.lock */,
+				C737B3B421FB3DAB00839366 /* Sources */,
+				C737B3B521FB3DAB00839366 /* Frameworks */,
+				C737B3B621FB3DAB00839366 /* Resources */,
+				2121754FE476DE1FBCAE22AF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YJMosaiDemo;
+			productName = YJMosaiDemo;
+			productReference = C737B3B821FB3DAB00839366 /* YJMosaiDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C737B3CF21FB3DAD00839366 /* YJMosaiDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C737B3E721FB3DAD00839366 /* Build configuration list for PBXNativeTarget "YJMosaiDemoTests" */;
+			buildPhases = (
+				C737B3CC21FB3DAD00839366 /* Sources */,
+				C737B3CD21FB3DAD00839366 /* Frameworks */,
+				C737B3CE21FB3DAD00839366 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C737B3D221FB3DAD00839366 /* PBXTargetDependency */,
+			);
+			name = YJMosaiDemoTests;
+			productName = YJMosaiDemoTests;
+			productReference = C737B3D021FB3DAD00839366 /* YJMosaiDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C737B3DA21FB3DAD00839366 /* YJMosaiDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C737B3EA21FB3DAD00839366 /* Build configuration list for PBXNativeTarget "YJMosaiDemoUITests" */;
+			buildPhases = (
+				C737B3D721FB3DAD00839366 /* Sources */,
+				C737B3D821FB3DAD00839366 /* Frameworks */,
+				C737B3D921FB3DAD00839366 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C737B3DD21FB3DAD00839366 /* PBXTargetDependency */,
+			);
+			name = YJMosaiDemoUITests;
+			productName = YJMosaiDemoUITests;
+			productReference = C737B3DB21FB3DAD00839366 /* YJMosaiDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C737B3B021FB3DAB00839366 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = zhangshuyue;
+				TargetAttributes = {
+					C737B3B721FB3DAB00839366 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					C737B3CF21FB3DAD00839366 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C737B3B721FB3DAB00839366;
+					};
+					C737B3DA21FB3DAD00839366 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C737B3B721FB3DAB00839366;
+					};
+				};
+			};
+			buildConfigurationList = C737B3B321FB3DAB00839366 /* Build configuration list for PBXProject "YJMosaiDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C737B3AF21FB3DAB00839366;
+			productRefGroup = C737B3B921FB3DAB00839366 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C737B3B721FB3DAB00839366 /* YJMosaiDemo */,
+				C737B3CF21FB3DAD00839366 /* YJMosaiDemoTests */,
+				C737B3DA21FB3DAD00839366 /* YJMosaiDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C737B3B621FB3DAB00839366 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C737B3C821FB3DAD00839366 /* LaunchScreen.storyboard in Resources */,
+				C737B3C521FB3DAD00839366 /* Assets.xcassets in Resources */,
+				C737B3C321FB3DAB00839366 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C737B3CE21FB3DAD00839366 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C737B3D921FB3DAD00839366 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2121754FE476DE1FBCAE22AF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YJMosaiDemo/Pods-YJMosaiDemo-resources.sh",
+				"${PODS_ROOT}/WSProgressHUD/WSProgressHUD/WSProgressBundle.bundle",
+				"${PODS_ROOT}/YJTool/YJTool_Demo/YJ_Tool/Resources/leftImage_Gray@2x.png",
+				"${PODS_ROOT}/YJTool/YJTool_Demo/YJ_Tool/Resources/leftImage_White@2x.png",
+				"${PODS_ROOT}/YJTool/YJTool_Demo/YJ_Tool/Resources/NoData@2x.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WSProgressBundle.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/leftImage_Gray@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/leftImage_White@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NoData@2x.png",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YJMosaiDemo/Pods-YJMosaiDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		478F8B1FB2A22B8B275C236C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YJMosaiDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C737B3B421FB3DAB00839366 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C792194B21FE8F8100AFD27F /* BaseNav.m in Sources */,
+				C792194821FE8D5B00AFD27F /* DrawViewController.m in Sources */,
+				C792195321FE970100AFD27F /* MosaiPath.m in Sources */,
+				C737B3C021FB3DAB00839366 /* ViewController.m in Sources */,
+				C792195421FE970100AFD27F /* MosaiView.m in Sources */,
+				C792195521FE970100AFD27F /* MosaiManager.m in Sources */,
+				C737B3CB21FB3DAD00839366 /* main.m in Sources */,
+				C737B3BD21FB3DAB00839366 /* AppDelegate.m in Sources */,
+				C792195821FEA60200AFD27F /* ResultViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C737B3CC21FB3DAD00839366 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C737B3D521FB3DAD00839366 /* YJMosaiDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C737B3D721FB3DAD00839366 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C737B3E021FB3DAD00839366 /* YJMosaiDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C737B3D221FB3DAD00839366 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C737B3B721FB3DAB00839366 /* YJMosaiDemo */;
+			targetProxy = C737B3D121FB3DAD00839366 /* PBXContainerItemProxy */;
+		};
+		C737B3DD21FB3DAD00839366 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C737B3B721FB3DAB00839366 /* YJMosaiDemo */;
+			targetProxy = C737B3DC21FB3DAD00839366 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C737B3C121FB3DAB00839366 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C737B3C221FB3DAB00839366 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C737B3C621FB3DAD00839366 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C737B3C721FB3DAD00839366 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C737B3E221FB3DAD00839366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C737B3E321FB3DAD00839366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C737B3E521FB3DAD00839366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 860A089FDA3514E27417BE5C /* Pods-YJMosaiDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63LX5KURWW;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
+				INFOPLIST_FILE = YJMosaiDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhangshuyue.YJMosaiDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C737B3E621FB3DAD00839366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52CC640348E52A006715E3C9 /* Pods-YJMosaiDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63LX5KURWW;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
+				INFOPLIST_FILE = YJMosaiDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhangshuyue.YJMosaiDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C737B3E821FB3DAD00839366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63LX5KURWW;
+				INFOPLIST_FILE = YJMosaiDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhangshuyue.YJMosaiDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YJMosaiDemo.app/YJMosaiDemo";
+			};
+			name = Debug;
+		};
+		C737B3E921FB3DAD00839366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63LX5KURWW;
+				INFOPLIST_FILE = YJMosaiDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhangshuyue.YJMosaiDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YJMosaiDemo.app/YJMosaiDemo";
+			};
+			name = Release;
+		};
+		C737B3EB21FB3DAD00839366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63LX5KURWW;
+				INFOPLIST_FILE = YJMosaiDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhangshuyue.YJMosaiDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YJMosaiDemo;
+			};
+			name = Debug;
+		};
+		C737B3EC21FB3DAD00839366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63LX5KURWW;
+				INFOPLIST_FILE = YJMosaiDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhangshuyue.YJMosaiDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YJMosaiDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C737B3B321FB3DAB00839366 /* Build configuration list for PBXProject "YJMosaiDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C737B3E221FB3DAD00839366 /* Debug */,
+				C737B3E321FB3DAD00839366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C737B3E421FB3DAD00839366 /* Build configuration list for PBXNativeTarget "YJMosaiDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C737B3E521FB3DAD00839366 /* Debug */,
+				C737B3E621FB3DAD00839366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C737B3E721FB3DAD00839366 /* Build configuration list for PBXNativeTarget "YJMosaiDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C737B3E821FB3DAD00839366 /* Debug */,
+				C737B3E921FB3DAD00839366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C737B3EA21FB3DAD00839366 /* Build configuration list for PBXNativeTarget "YJMosaiDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C737B3EB21FB3DAD00839366 /* Debug */,
+				C737B3EC21FB3DAD00839366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C737B3B021FB3DAB00839366 /* Project object */;
+}

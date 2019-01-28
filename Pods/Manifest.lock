@@ -1,0 +1,32 @@
+PODS:
+  - Shimmer (1.0.2)
+  - WSProgressHUD (1.1.3):
+    - Shimmer
+  - YJTool (1.1.2):
+    - YJTool/CreateView (= 1.1.2)
+    - YJTool/EmptyData (= 1.1.2)
+    - YJTool/Tool (= 1.1.2)
+    - YJTool/UIImage (= 1.1.2)
+  - YJTool/CreateView (1.1.2)
+  - YJTool/EmptyData (1.1.2)
+  - YJTool/Tool (1.1.2)
+  - YJTool/UIImage (1.1.2)
+
+DEPENDENCIES:
+  - WSProgressHUD
+  - YJTool
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Shimmer
+    - WSProgressHUD
+    - YJTool
+
+SPEC CHECKSUMS:
+  Shimmer: c5374be1c2b0c9e292fb05b339a513cf291cac86
+  WSProgressHUD: a0902809c8af112fb34b004fdc75c16eb85167a3
+  YJTool: 8bae0dc51c03a0ea741bd223ef20b3d211548336
+
+PODFILE CHECKSUM: c45e0a89923ee28e6d7dc6b0cabf3710b7790d40
+
+COCOAPODS: 1.5.3
