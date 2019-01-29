@@ -19,19 +19,7 @@
 
 1、将YJMosaiView文件夹拖入项目
 
-2、创建马赛克画板：
-```
-MosaiView *mosaicView = [[MosaiView alloc] initWithFrame:showRect];
-mosaicView.centerX = mainScrollView.width * 0.5;
-mosaicView.deleagate = self;
-mosaicView.originalImage = image;//原图
-mosaicView.mosaicImage = image;//马赛克图
-[self.view addSubview:mosaicView];
-```
-注意：mosaicImage 这个图是根据原图生成的马赛克图片，如果需要其他种类的马赛克图，只需要将新样式的马赛克图赋值给这个属性即可。
-
-
-3、双指放大操作，将MosaiView添加到一个UIScrollView上即可
+2、创建马赛克画板,双指放大操作，将MosaiView添加到一个UIScrollView上即可：
 
 ```
 /**
@@ -68,6 +56,7 @@ self.mosaicView = [[MosaiView alloc] initWithFrame:showRect];
 self.mosaicView.centerX = mainScrollView.width * 0.5;
 self.mosaicView.deleagate = self;
 self.mosaicView.originalImage = image;//原图
+### 注意：mosaicImage 这个图是根据原图生成的马赛克图片，如果需要其他种类的马赛克图，只需要将新样式的马赛克图赋值给这个属性即可。
 self.mosaicView.mosaicImage = image;//马赛克图
 [mainScrollView addSubview:self.mosaicView];
 
